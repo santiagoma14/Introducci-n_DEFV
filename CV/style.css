@@ -1,0 +1,113 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: transparent;
+    text-decoration: dashed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+header {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 10px;
+    background-color: black;
+    height: 10vh;
+    padding: 12px;
+
+}
+
+header img {
+    border-radius: 54px;
+    padding: 0%;
+    border: solid 5px black;
+}
+
+#elementos-header {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 0%;
+
+}
+
+main{
+    display: flex;
+    justify-content: left;
+    background-color: white;
+    height: 80vh;
+
+}
+
+main p {
+
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    background-color: white;
+    height: 40px;
+    width: 70vh;
+    text-align: justify;
+    padding: 1em;
+
+}
+
+
+
+#conocimientos {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    height: 40px;
+    width: 70vh;
+    background-color: white;
+    padding: 2em;
+    list-style: square;
+
+}
+
+.primera{
+    width: 80vh;
+    height: 30vh;
+    border-radius: 45%;
+
+}
+
+.segunda {
+    width: 80vh;
+    height: 30vh;
+    border-radius: 45%;
+}
+
+#experiencia{
+    list-style: square;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    gap: 10 px;
+    margin-top: 45vh;
+    margin-left: 850px;
+    height: 40px;
+    width: 40px;
+    text-align: justify;
+    
+
+}
+
+footer {
+
+    display: flex;
+    background-color: black;
+    height: 10vh;
+    color: white;
+    margin-top: 1em;
+    margin-left: 1px;
+    display: pa;
+
+}
+
+
