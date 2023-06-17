@@ -1,0 +1,255 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+
+}
+
+
+header {
+    color: white;
+    background-color: white;
+    height: 10vh  ;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 20px;
+    text-decoration: dashed;
+
+}
+
+ div .itmes-header {
+    background-position: center;
+    text-decoration: dashed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    gap: 10px;
+    cursor: pointer;
+    align-items: center;
+}
+
+
+div .itmes-header .logo-puntos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://cdn-icons-png.flaticon.com/128/17/17704.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 15px;
+    height: 18px;
+
+
+}
+
+div .itmes-header img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    
+ 
+    
+}
+
+
+
+a {
+    color: black;
+    text-decoration: dashed;
+}
+
+
+body {
+    background-color: yellow;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+main {
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+main .principal-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 10px 0px 10px;
+    width: 500px;
+}
+
+main .principal-logo img {
+
+    width: 350px;
+    height: 180px;
+}
+
+main .buscador {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 10%;
+    margin: 0%;
+    padding: 1px;
+}
+
+main .buscador .buscado-navegador {
+    width: 450px;
+    border-radius: 100px;
+    border: solid #f8f9fa;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px    ;
+
+}
+    
+main .buscador .buscado-navegador .search-input {
+    width: 78%;
+    height: 25px;
+    border: none;
+    outline: none;
+    align-items: center;
+
+}
+
+main .buscador .buscado-navegador:hover {
+    box-shadow: 0 6px 6px 0 #dadce0;
+
+}
+
+main .buscador .buscado-navegador .logo-buscar {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    gap: 5px;
+
+}
+
+main .buscador .buscado-navegador .logo-buscar img {
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 30px ;
+    padding: 3px 0 0px 0px;
+    cursor: pointer;
+    justify-content: left;
+}
+
+main .buscador .buscado-navegador .microfono-buscador img {
+
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 30px ;
+    padding: 3px 0 0px 0px;
+    width: 15px;
+    height: 18px;
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    cursor: pointer;
+    flex-direction: row;
+
+}
+
+main .buscador .buscado-navegador .camara-buscador img {
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 30px ;
+    padding: 3px 0 0px 0px;
+    width: 22px;
+    height: 24px;
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    cursor: pointer;
+    flex-direction: row;
+
+}
+
+main .botonera {
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    width: 530px;
+    height: 34px
+    margin: ;
+}
+
+
+
+main .botonera .botones .boton {
+    background-color: #f8f9fa;
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    padding: 0 15px;
+    cursor: pointer;
+
+}
+
+main .botonera .botones .boton:hover {
+    border: 1px solid #dadce0;
+    box-shadow: 2px #dadce0;
+    color: #202124;
+}
+
+
+
+
+
+
+
+footer {
+   width: 100%;
+   height: 50px;
+   position: absolute;
+    bottom: 0;
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer ul{
+    margin:  10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+
+}
+
+footer  .pie-izquierdo {
+    justify-content: left;
+
+}
+
+footer .pie-dereho {
+    justify-content: right;
+
+}
+
+footer ul li a {
+    margin: 10px;
+    color: #5f6368;
+
+}
