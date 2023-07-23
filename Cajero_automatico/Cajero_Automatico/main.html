@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Página de inicio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <header>
+        <div class="container">
+            <h1>¡Bienvenido!</h1> 
+            <img src="Perfil.jpg" alt="Imagen de usuario"> 
+        </div>
+    </header>
+    <main>
+      <section>
+        <div class="caja_General">
+          <div class="facturador">
+            <form action="">
+            <div class="cuentas">
+            <h2>Aquí podrá hacer sus transacciones</h2>
+            <span id="cuenta_1">
+              <label for="">Saldo 1: </label>
+              <input type="number" placeholder="" id="saldo_1" value="200" >
+            </span>
+            <span id="cuenta_2">
+              <label for="">Saldo 2: </label>
+              <input type="number" placeholder="" id="saldo_2" value="290" >
+            </span>
+            <span id="cuenta_3">
+              <label for="">Saldo 3: </label>
+              <input type="number" placeholder="" id="saldo_3" value="67" >
+            </span>
+          </div>
+            <div class="valor">
+              <h3>Ingrese el valor de la operación</h3>
+              <span>
+                <label for="">Cuenta 1:</label>
+                <input type="number" placeholder="Ejm: 120" id="monto_1">
+              </span>
+              <span>
+                <label for="">Cuenta 2:</label>
+                <input type="number" placeholder="Ejm: 120" id="monto_2">
+              </span>
+              <span>
+                <label for="">Cuenta 3:</label>
+                <input type="number" placeholder="Ejm: 120"id="monto_3">
+              </span>
+            </div>
+            <div class="operaciones">
+              <h3>Elija la operación:</h3>
+              <div class="operacion_1">
+                <span>
+                  <input type="button" onclick="ingresar_Monto1()" value="Ingresar">
+                  <br>
+                  <input type="button" onclick="retirar_Monto1()" value="Retirar">
+                </span>
+              </div>
+             <div class="operacion_2">
+              <span>
+                <input type="button" onclick="ingresar_Monto2()" value="Ingresar">
+                  <br>
+                  <input type="button" onclick="retirar_Monto2()" value="Retirar">
+              </span>
+             </div>
+             <div class="operacion_3">
+              <span>
+                <input type="button" onclick="ingresar_Monto3()" value="Ingresar">
+                  <br>
+                  <input type="button" onclick="retirar_Monto3()" value="Retirar">
+             </span>
+             </div>
+            </div>
+          </div> 
+          </form>
+        </div>
+    </main>
+  </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

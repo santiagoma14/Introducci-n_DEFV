@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cajero automatico</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <section>
+      <div class="caja_Logueo">
+        <form action="">
+        <h2>Ingreso</h2>
+        <div class="caja_Ingreso">
+          <span class="icono_Ingreso"
+            ><ion-icon name="mail-open-sharp"></ion-icon
+          ></span>
+          <input type="text" name="" id="usuario" />
+          <label for="">Usuario</label>
+        </div>
+        <div class="caja_Ingreso">
+          <span class="icono_Ingreso"
+            ><ion-icon name="lock-closed-sharp"></ion-icon
+          ></span>
+          <input type="password" name="" id="contrasena" />
+          <label for="">Contraseña</label>
+        </div>
+        <div class="recordar_clave">
+          <label><input type="checkbox"/> Recuerdame</label>
+          <a href="#">¿Olvidaste tu contraseña?</a>
+        </div class="entrar">
+        <input type="button" onclick="login()" value="Acceder" id="entrar_1">
+        <div class="registrarse">
+          <p>¿No tienes una cuenta?<a href="#"> Registrate aquí.</a></p>
+        </div>
+        </form>
+      </div>
+      <script src="script.js"></script>
+      <script
+        type="module"
+        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+      ></script>
+      <script
+        nomodule
+        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+      ></script>
+    </section>
+    </main>
+    <footer></footer>
+  </body>
+ 
+</html>

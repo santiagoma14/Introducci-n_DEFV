@@ -1,0 +1,51 @@
+* {
+    padding: 0%;
+    border: 0%;
+}
+
+header {
+    height: 10vh;
+}
+
+header ul li {
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-style: oblique;
+    text-align: center;
+    height: 100%;
+    background-color: azure;
+    color: burlywood;
+}
+
+main {
+    content: none;
+    display: grid;
+    position: relative;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    background-color: aqua; 
+    height: 80%;
+    width: 50vw;
+    border: 2px solid black;
+
+}
+
+main div{
+    background-color: white;
+    border: 10px solid blue;
+}
+
+
+.corto1 {
+   background-color: red;
+   height: 15px;
+   width: 15px;
+   align-items: center;
+   justify-content: center;
+   
+}
+
+footer {
+    height: 20vh;
+}
